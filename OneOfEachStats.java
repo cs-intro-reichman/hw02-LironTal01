@@ -10,8 +10,8 @@ import java.util.Random;
 public class OneOfEachStats {
 	public static void main (String[] args) {
 		// Gets the two command-line arguments
-		int T = Integer.parseInt(args[0]);
-		int seed = Integer.parseInt(args[1]);
+		int seed = Integer.parseInt(args[0]);
+		int T = Integer.parseInt(args[1]);
 		// Initailizes a random numbers generator with the given seed value
         Random generator = new Random(seed);  
 	
@@ -52,7 +52,7 @@ public class OneOfEachStats {
         g=0;
   
       }
-        avg = avg / t;
+        avg = avg / T;
         System.out.println("Average: "+ avg + " children to get at least one of each gender.");
         System.out.println("Number of families with 2 children: " + sum2);
         System.out.println("Number of families with 3 children: " + sum3);
