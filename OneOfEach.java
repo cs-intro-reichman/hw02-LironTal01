@@ -10,11 +10,11 @@
 public class OneOfEachStats {
     public static void main(String[] args) {
         // Gets the two command-line arguments
-		int seed = Integer.parseInt(args[0]);
+		int Seed = Integer.parseInt(args[0]);
         int T = Integer.parseInt(args[1]);
         
         // Initailizes a random numbers generator with the given seed value
-        Random generator = new Random(seed);
+        Random generator = new Random(Seed);
 
         int g=0;
         int b=0;
@@ -24,7 +24,7 @@ public class OneOfEachStats {
         int sum3 = 0;
         int sum4 = 0;
 
-        for(int i=0; i<t; i++){
+        for(int i=0; i<T; i++){
         while(b==0 || g==0){
             x = generator.nextDouble();
             if (x>0.5) {
