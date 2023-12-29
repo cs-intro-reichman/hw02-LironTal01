@@ -12,8 +12,13 @@ public class DamkaBoard {
                 System.out.print(" ");
             }
             for (int j=0; j<n; j++){
-				
+				if(j==n-1 && i%2==0){
+					System.out.println("*");
+				}
+				else{
 				System.out.print("* ");
+				}
+			
 				}
             System.out.println();   
             }
