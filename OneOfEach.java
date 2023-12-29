@@ -57,13 +57,13 @@ public class OneOfEach {
         System.out.println("Number of families with 3 children: " + sum3);
         System.out.println("Number of families with 4 or more children: " + sum4);
         if (sum2>sum3 && sum2>sum4) {
-            System.out.println("The most common number of children is 2");  
+            System.out.println("The most common number of children is 2.");  
         }
         else if (sum3>sum2 && sum3>sum4){
-            System.out.println("The most common number of children is 3"); 
+            System.out.println("The most common number of children is 3."); 
         }
         else{
-            System.out.println("The most common number of children is 4");
+            System.out.println("The most common number of children is 4.");
         }
         
        
